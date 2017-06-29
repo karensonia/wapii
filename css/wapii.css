@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+body {
+font-family: 'Work Sans', sans-serif;
+}
+pleft {
+  text-align: left;
+}
+pcenter {
+  text-align: center;
+}
+orange-button {
+  border-radius: 0;
+  background-color: #fff;
+  border-color: orange;
+  color: #fff;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+section#construyamos {
+  position: relative;
+}
+section#construyamos .construyamos-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  color: #999999;
+}
+section#construyamos .construyamos-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+section#construyamos .construyamos-item i.fa {
+  border: 2px solid #324051;
+  color: #324051;
+}
+section#construyamos .construyamos-item:hover i.fa {
+  color: #ffffff;
+  background: #324051;
+}
+section#construyamos .construyamos-item h3 {
+ font-size: 15px;
+ }
+section#construyamos .construyamos-item:hover h3 {
+  color: #324051;
+}
+
+section#cifras {
+  position: relative;
+  background: url("../img/berry/bk-berry.jpg");
+}
+section#cifras .cifras-item {
+  text-align: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFF;
+}
+section#cifras .cifras-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+section#cifras .cifras-item i.fa {
+  border: 2px solid #324051;
+  color: #FFF;
+}
+section#cifras .cifras-item:hover i.fa {
+  color: #ffffff;
+  background: #FFF;
+}
+section#cifras .cifras-item h1 {
+ font-size: 15px;
+ color: #FFF;
+ }
+ section#cifras .cifras-item h3 {
+ font-size: 32px;
+  font-weight: bold;
+  color: #FFF;
+ }
+section#cifras .cifras-item:hover h3 {
+  color: #FFF;
+}
+section#video {
+  position: relative;
+  background: url("../img/berry/bk-video.png") no-repeat;
+  max-height: 600px;
+}
+section#video .video iframe {
+  width: 600px;
+  height: 350px;
+  margin: 100px auto;
+}
+section#video .iphone {
+  width: 283px;
+  height: 990px;
+  margin: 30px;
+  float: right;
+}
+section#video .video-item {
+  text-align: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFF;
+}
+section#video .video-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+section#video .video-item i.fa {
+  border: 2px solid #324051;
+  color: #FFF;
+}
+section#video .video-item:hover i.fa {
+  color: #ffffff;
+  background: #FFF;
+}
+section#video .video-item h1 {
+ font-size: 15px;
+ color: #FFF;
+ }
+ section#video .video-item h3 {
+ font-size: 32px;
+  font-weight: bold;
+  color: #FFF;
+ }
+section#video .video-item:hover h3 {
+  color: #FFF;
+}
