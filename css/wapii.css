@@ -225,3 +225,11 @@ footer .socialmedia img {
 .verticalLine {
   border-left: 1px solid #fff;
 }
+.socialmedia-header {
+  float: right;
+}
+.socialmedia-header img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+ }

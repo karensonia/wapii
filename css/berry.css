@@ -565,7 +565,6 @@ section::after {
   padding: 5px 25px;
 }
 .btn.btn-primary {
-  border: 1px solid #ffffff;
   background: #FF5000;
   color: #ffffff;
   border-radius: 0;
@@ -986,7 +985,7 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  border: 1px solid #ffffff;
+  border: 1px solid #FF5000;
   background: #FF5000;
   color: #ffffff;
   border-radius: 0;
