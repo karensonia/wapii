@@ -159,7 +159,20 @@ header .navbar-default.scrolled ul.navbar-nav {
   font-size: 21px;
   font-weight: 300;
   margin-bottom: 0;
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+.section-heading-orange h1 {
+  margin: 30px;
+}
+.section-heading-orange h1 {
+  color: #FF5000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
 .section-heading p {
   font-size: 25px;
@@ -540,6 +553,11 @@ section::after {
   color: #FF5000;
   font-size: 20px;
   font-weight: bolder;
+}
+.tp-caption.small_white_light {
+  color: #FFF;
+  font-size: 12;
+  font-weight: bold;
 }
 .tp-caption.large_white_bold_center {
   color: #ffffff;
