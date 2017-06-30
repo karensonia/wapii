@@ -198,3 +198,24 @@ section#video .video-item h1 {
 section#video .video-item:hover h3 {
   color: #FFF;
 }
+footer ul li {
+  text-decoration: none;
+     list-style:none;
+     text-align: left;
+     color: #FFF;
+     font-size: 13px;
+     line-height: 2;
+
+}
+footer .socialmedia {
+  display: block;
+  margin-top: 30px;
+}
+footer .socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+.quicklinks {
+  display: inline-block;
+}
