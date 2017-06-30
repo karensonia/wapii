@@ -720,7 +720,7 @@ header {
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a {
-  color: #ffffff;
+  color: #FF5000;
   background: none;
 }
 header .navbar-default ul.navbar-nav li a.getApp {
