@@ -26,8 +26,7 @@
 
 
   <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
-    <script type="text/javascript" src="js/spry.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
 
@@ -35,6 +34,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
@@ -50,19 +50,17 @@
     </div>
   </div>
 
-  <header style="max-height:620px;">
+  <header style="max-height:400px;">
 
-    <nav class="navbar-inverse nav-upper">
-      <div class="container-fluid">
 
-        <ul class="nav navbar-nav navbar-right social right">
-          <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid socialmedia-header">
+
+
+      <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-lg fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+    </div>
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -118,16 +116,16 @@
               <button type="button" class="btn btn-white btn-lg orange-button">SOY CONDUCTOR</button>
             </div>
 
-             <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="260" data-hoffset="0" data-voffset="0" data-speed="1000"
+            <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="260" data-hoffset="0" data-voffset="0" data-speed="1000"
               data-start="1500" data-easing="Power4.easeOut">
               <button type="button" class="btn btn-white btn-lg orange-button">SOY PROPIETARIO</button>
             </div>
-                        <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="320" data-hoffset="0" data-voffset="0" data-speed="1000"
+            <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="320" data-hoffset="0" data-voffset="0" data-speed="1000"
               data-start="1500" data-easing="Power4.easeOut">
               <button type="button" class="btn btn-white btn-lg orange-button">SOMOS COMUNIDAD</button>
             </div>
 
-             <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="380" data-hoffset="0" data-voffset="0" data-speed="1000"
+            <div class="tp-caption large_white_light_center sfb" data-x="650" data-y="380" data-hoffset="0" data-voffset="0" data-speed="1000"
               data-start="1500" data-easing="Power4.easeOut">
               <button type="button" class="btn btn-white btn-lg orange-button">SOMOS UNA EMPRESA</button>
             </div>
@@ -149,42 +147,42 @@
   <div class="wrapper">
 
 
-
-    <section id="para-quien">
-      <div class="container">
-
-      
-<input id="toggle" type="checkbox" checked>
-  <label for="toggle">SOY CONDUCTOR Y QUIERO ESTACIONAR</label>
-  <div id="expand">
-    <section>
- <div class="content">
-        <section id="conductor">
+        <section id="construyamos">
             <div class="container">
 
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h4>SOY CONDUCTOR Y QUIERO ESTACIONAR</h4>
+                    <h1>Construyamos juntos una Smart City</h1>
+                    <!--<div class="divider"></div>
+                    <p>Oleose Beautiful App Landing Page</p>-->
                 </div>
 
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="construyamos-item scrollpoint sp-effect5">
-                            <img src="img/berry/conductor.png" style="max-width:900px;">
-                        <div style="align:center;">    <button type="button" class="btn btn-white btn-lg orange-button">Quiero usar un estacionamiento inteligente</button></div>
+                            <img src="img/berry/usar.png">
+                            <h3>Cuéntanos dónde y cuándo quieres estacionar</h3>
+                            <button type="button" class="btn btn-primary btn-lg orange-button">Quiero usar un<br> estacionamiento inteligente</button>
                         </div>
                     </div>
-                   
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="construyamos-item scrollpoint sp-effect5">
+                            <img src="img/berry/arrendar.png">
+                            <h3>¡No pierdas la oportunidad de ganar dinero extra!</h3>
+                            <button type="button" class="btn btn-primary btn-lg">Quiero arrendar<br> mi estacionamiento</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-    </div>    </section>
-  </div>
- 
 
+    <section id="para-quien">
+      <div class="container">
+        <p>kkjfds</p>
 
-</div>
-</section>
+      </div>
+    </section>
 
 
 
@@ -266,26 +264,8 @@
     $(document).ready(function () {
       appMaster.preLoader();
     });
-    
   </script>
-    <script type="text/javascript">
-        $(".header").click(function () {
 
-    $header = $(this);
-    //getting the next element
-    $content = $header.next();
-    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-    $content.slideToggle(500, function () {
-        //execute this after slideToggle is done
-        //change text of header based on visibility of content div
-        $header.text(function () {
-            //change text based on condition
-            return $content.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
-
-});
-    </script>
 </body>
 
 </html>

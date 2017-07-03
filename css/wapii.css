@@ -355,6 +355,13 @@ section#recuperando .recuperando-item:hover h3 {
 section#como-usar {
     max-height: 600px;
 }
+section#para-quien {
+    position: relative;
+    background-color: #FFF;
+}
+#slider-height {
+    max-height: 400px;
+}
 
 footer ul li {
     text-decoration: none;
@@ -400,7 +407,19 @@ footer .socialmedia img {
 
 .socialmedia-header {
     float: right;
+    margin: 70px 70px 0 0;
 }
+
+.socialmedia-header i {
+    margin-right: 15px;
+    color: #FFF;
+}
+
+.socialmedia-header i:hover {
+    margin-right: 15px;
+    color: #FF5000;
+}
+
 
 .socialmedia-header img {
     width: 14px;
@@ -575,50 +594,3 @@ section#blank .blank-item:hover h3 {
 }
 
 
-
-/*para quien */
-#para-quien {
-    margin-top: 40px;
-}
-
-input {
-  display: none;
-  visibility: hidden;
-}
-label {
-  display: block;
-  padding: 0.5em;
-  text-align: center;
-  border-bottom: 1px solid #CCC;
-  color: #666;
-}
-label:hover {
-  color: #000;
-}
-label::before {
-  font-family: Consolas, monaco, monospace;
-  font-weight: bold;
-  font-size: 15px;
-  content: "+";
-  vertical-align: text-top;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 3px;
-  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
-}
-#expand {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.5s;
-  color: #FFF;
-}
-section {
-  padding: 0 20px;
-}
-#toggle:checked ~ #expand {
-  height: 250px;
-}
-#toggle:checked ~ label::before {
-  content: "-";
-}
