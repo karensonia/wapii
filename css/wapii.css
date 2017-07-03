@@ -17,6 +17,12 @@ orange-button {
     border-color: orange;
     color: #fff;
 }
+white-button {
+    border-radius: 0;
+    background-color: orange;
+    border-color: FFF;
+    color: orange;
+}
 
 .left {
     float: left;
@@ -117,6 +123,59 @@ section#logos .logos-item h3 {
 section#logos .logos-item:hover h3 {
     color: #324051;
 }
+section#apoyo {
+    position: relative;
+    background-color: #F0F0F0;
+    max-height: 420px;
+    color: #0D181E;
+}
+
+section#apoyo img {
+    width: 180px;
+}
+
+section#apoyo .apoyo-item {
+    margin: 30px auto;
+    text-align: center;
+}
+
+section#apoyo .apoyo-item i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 104px;
+}
+
+section#apoyo .apoyo-item i.fa {
+    border: 2px solid #324051;
+    color: #324051;
+}
+
+section#apoyo .apoyo-item:hover i.fa {
+    color: #ffffff;
+    background: #324051;
+}
+
+section#apoyo .apoyo-item h3 h4 {
+    font-size: 15px;
+    color: #0D181E;
+}
+
+section#apoyo .apoyo-item:hover h3 {
+    color: #324051;
+}
+.blue {
+    color: #0D181E;
+}
+
 
 section#cifras {
     position: relative;
@@ -231,8 +290,70 @@ section#video .video-item h3 {
     color: #FFF;
 }
 
-section#video .video-item:hover h3 {
+section#recuperando .recuperando-item:hover h3 {
     color: #FFF;
+}
+section#recuperando {
+    position: relative;
+    background: url("../img/berry/mi-ciudad.png") no-repeat;
+    max-height: 600px;
+    margin-top: 12px;
+}
+
+section#recuperando .iphone {
+    width: 283px;
+    margin: 30px;
+    float: right;
+}
+
+section#recuperando .recuperando-item {
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 104px;
+}
+
+section#recuperando .recuperando-item i.fa {
+    border: 2px solid #324051;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item:hover i.fa {
+    color: #ffffff;
+    background: #FFF;
+}
+
+section#recuperando .recuperando-item h1 {
+    font-size: 15px;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+section#recuperando .recuperando-item:hover h3 {
+    color: #FFF;
+}
+section#como-usar {
+    max-height: 600px;
 }
 
 footer ul li {
@@ -370,4 +491,134 @@ section#blank .blank-item h3 {
 
 section#blank .blank-item:hover h3 {
     color: #FFF;
+}
+.navbar-inverse.nav-upper {
+  height: 50px;
+      background: transparent !important;
+
+}
+.navbar-inverse.nav-upper ul {
+  float: right;
+  display: table;
+}
+.navbar-inverse.nav-upper .navbar-upper > li {
+  display: table-cell;
+  font-size: 14px;
+}
+.navbar-inverse.nav-upper .navbar-upper > li > a {
+  color: #777;
+}
+.como-usar ul li {
+    list-style-type: square;
+    margin-top: 10px;
+}
+.como-usar h1 {
+    margin-left: 20px;
+}
+.container-spry-neutral {
+    width:100%;
+    margin-top: 30px;
+}
+.container-spry-neutral div {
+    width:100%;
+    text-align: center;
+}
+.container-spry-neutral div button {
+    min-width: 500px;
+}
+.container-spry-neutral .header {
+    background-color:#FFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 18px;
+}
+.container-spry-neutral .header h2 {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF5000;
+    text-transform: uppercase;
+}
+.container-spry-neutral .content {
+    display: none;
+    padding : 5px;
+}
+.container-spry-negative {
+    width:100%;
+    margin-top: 30px;
+}
+.container-spry-negative div {
+    width:100%;
+    text-align: center;
+}
+.container-spry-negative div button {
+    min-width: 500px;
+}
+.container-spry-negative .header {
+    background-color:#d3d3d3;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 18px;
+}
+.container-spry-negative .header h2 {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF5000;
+    text-transform: uppercase;
+}
+.container-spry-negative .content {
+    display: none;
+    padding : 5px;
+}
+
+
+
+/*para quien */
+#para-quien {
+    margin-top: 40px;
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+label:hover {
+  color: #000;
+}
+label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+}
+section {
+  padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+  height: 250px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
 }

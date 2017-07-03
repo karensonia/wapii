@@ -57,8 +57,9 @@ header .navbar-default ul.navbar-nav {
 }
 header .navbar-default ul.navbar-nav li a {
   text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   padding: 7px 20px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -554,6 +555,11 @@ section::after {
   font-size: 20px;
   font-weight: bolder;
 }
+.tp-caption.large_white_light_grey {
+  color: #333;
+  font-size: 20px;
+  font-weight: bolder;
+}
 .tp-caption.small_white_light {
   color: #FFF;
   font-size: 12;
@@ -591,6 +597,51 @@ section::after {
   color: #FF5000;
   background-color: #ffffff;
   border-color: #FF5000;
+}
+.btn.btn-white {
+  background: #FFF;
+  color: #FF5000;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 50px;
+  min-width: 300px;
+    border-color: #FF5000;
+}
+.btn.btn-white:hover {
+  color: #FFF;
+  background-color: #FF5000;
+  border-color: #FFF;
+}
+.btn.btn-transparent {
+  background: transparent;
+  color: #FFF;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 50px;
+  min-width: 300px;
+    border-color: #FFF;
+}
+.btn.btn-transparent:hover {
+  color: #FF5000;
+  background-color: #FFF;
+  border-color: #FF5000;
+}
+.btn.btn-transparent-inverse {
+  background: transparent;
+  color: #FF5000;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 50px;
+  min-width: 300px;
+    border-color: #FF5000;
+}
+.btn.btn-transparent-inverse:hover {
+  color: #FFF;
+  background-color: #FF5000;
+  border-color: #FFF;
 }
 .btn.btn-default {
   border: none;
