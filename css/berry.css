@@ -245,6 +245,7 @@ section#features .media i.fa {
 section#features .media .media-heading {
   padding-top: 10px;
   font-weight: 300;
+  font-size: 20px;
 }
 section#features .media .media-body {
   color: #999999;
@@ -622,6 +623,8 @@ section::after {
   padding: 0 50px;
   min-width: 300px;
     border-color: #FFF;
+          text-transform: uppercase;
+
 }
 .btn.btn-transparent:hover {
   color: #FF5000;
@@ -636,12 +639,29 @@ section::after {
   font-weight: bold;
   padding: 0 50px;
   min-width: 300px;
+        text-transform: uppercase;
     border-color: #FF5000;
+}
+.btn.btn-transparent-inverse-visiting {
+  background-color: #FF5000;
+  color: #FFF;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 50px;
+  min-width: 300px;
+        text-transform: uppercase;
+  border-color: #FFF;
 }
 .btn.btn-transparent-inverse:hover {
   color: #FFF;
   background-color: #FF5000;
   border-color: #FFF;
+}
+.btn.btn-transparent-inverse-visiting:hover {
+  color: #FF5000;
+  background-color: #FFF;
+  border-color: #FF5000;
 }
 .btn.btn-default {
   border: none;
@@ -676,26 +696,22 @@ form .form-control {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  -webkit-border-radius: 5em;
-  -moz-border-radius: 5em;
-  -ms-border-radius: 5em;
-  -o-border-radius: 5em;
-  border-radius: 5em;
   height: 40px;
   line-height: 40px;
   padding: 20px;
-  color: #cfcfcf;
-  border: 2px solid #cccccc;
+  color: #0D181E;
+  border: 1px solid #0D181E;
   font-weight: 300;
 }
 form textarea.form-control {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
   height: auto;
   line-height: normal;
+}
+form p {
+      font-size: 15px;
+    line-height: 1.42857143;
+    color: #0D181E;
+    font-weight: 500;
 }
 @media screen and (max-width: 640px) {
   .logo {
@@ -875,7 +891,85 @@ section#about .about-item:hover h3 {
   color: #324051;
 }
 section#features {
-  background: #f6f6f6;
+  background: #F0F0F0;
+  background: url("../img/berry/features.png") #F0F0F0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contacto .contacto-item:hover h3 {
+    color: #FFF;
+}
+section#contacto {
+    position: relative;
+    background: url("../img/berry/bk-contacto.png") no-repeat bottom;
+    min-height: 450px;
+    margin-top: 60px;
+}
+section#contacto form {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+section#contacto form input {
+  min-width: 300px;
+}
+section#contacto .iphone {
+    width: 283px;
+    margin: 30px;
+    float: right;
+}
+
+section#contacto .contacto-item {
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+      margin-top: 30px;
+
+}
+
+section#contacto .contacto-item i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 104px;
+}
+
+section#contacto .contacto-item i.fa {
+    border: 2px solid #324051;
+    color: #FFF;
+}
+
+section#contacto button {
+  margin-right: 2px;
+}
+
+section#contacto .contacto-item:hover i.fa {
+    color: #ffffff;
+    background: #FFF;
+}
+
+section#contacto .contacto-item h1 {
+    font-size: 15px;
+    color: #FFF;
+}
+
+section#contacto .contacto-item h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    padding-left: 2vw;
+}
+
+section#contacto .contacto-item:hover h3 {
+    color: #FFF;
 }
 section#features header h1:after {
   background: #324051;

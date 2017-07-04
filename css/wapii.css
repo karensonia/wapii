@@ -352,6 +352,71 @@ section#recuperando .recuperando-item h3 {
 section#recuperando .recuperando-item:hover h3 {
     color: #FFF;
 }
+section#inversionistas1 .inversionistas1-item:hover h3 {
+    color: #FFF;
+}
+section#inversionistas1 {
+    position: relative;
+    background: url("../img/berry/inversionistas-section.png") no-repeat bottom;
+    max-height: 590px;
+    margin-top: 60px;
+}
+section#mapa {
+max-height: 300px;
+}
+
+section#inversionistas1 .iphone {
+    width: 283px;
+    margin: 30px;
+    float: right;
+}
+
+section#inversionistas1 .inversionistas1-item {
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+}
+
+section#inversionistas1 .inversionistas1-item i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 104px;
+}
+
+section#inversionistas1 .inversionistas1-item i.fa {
+    border: 2px solid #324051;
+    color: #FFF;
+}
+
+section#inversionistas1 .inversionistas1-item:hover i.fa {
+    color: #ffffff;
+    background: #FFF;
+}
+
+section#inversionistas1 .inversionistas1-item h1 {
+    font-size: 15px;
+    color: #FFF;
+}
+
+section#inversionistas1 .inversionistas1-item h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+section#inversionistas1 .inversionistas1-item:hover h3 {
+    color: #FFF;
+}
 section#como-usar {
     max-height: 600px;
 }
@@ -534,63 +599,161 @@ section#blank .blank-item:hover h3 {
 .como-usar h1 {
     margin-left: 20px;
 }
-.container-spry-neutral {
-    width:100%;
-    margin-top: 30px;
-}
-.container-spry-neutral div {
-    width:100%;
-    text-align: center;
-}
-.container-spry-neutral div button {
-    min-width: 500px;
-}
-.container-spry-neutral .header {
-    background-color:#FFF;
-    cursor: pointer;
-    font-weight: bold;
-    padding-top: 25px;
-    font-size: 18px;
-}
-.container-spry-neutral .header h2 {
-    padding-top: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #FF5000;
-    text-transform: uppercase;
-}
-.container-spry-neutral .content {
-    display: none;
-    padding : 5px;
-}
-.container-spry-negative {
-    width:100%;
-    margin-top: 30px;
-}
-.container-spry-negative div {
-    width:100%;
-    text-align: center;
-}
-.container-spry-negative div button {
-    min-width: 500px;
-}
-.container-spry-negative .header {
-    background-color:#d3d3d3;
-    cursor: pointer;
-    font-weight: bold;
-    padding-top: 25px;
-    font-size: 18px;
-}
-.container-spry-negative .header h2 {
-    padding-top: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #FF5000;
-    text-transform: uppercase;
-}
-.container-spry-negative .content {
-    display: none;
-    padding : 5px;
+/* ----- Accordion ----- */
+
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0 auto;
+    width: 90vw;
 }
 
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 35px 15px 35px 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF5000;
+    text-transform: uppercase;
+    background: #fff;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+#accordion .panel-title a:hover{
+    background: #F0F0F0;
+}
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after{
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+#accordion .panel-title a.collapsed:after{
+    transform: rotate(360deg);
+}
+#accordion .panel-body{
+    padding: 10px 70px 10px 20px;
+    background: #FFF;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+#accordion .panel:nth-child(2n) .panel-title a,
+#accordion .panel:nth-child(2n) .panel-body{
+    background: #F0F0F0;
+}
+#accordion .panel:nth-child(2n) .panel-title a:hover{
+    background: #FFF;
+}
+#accordion .panel:nth-child(3n) .panel-title a,
+#accordion .panel:nth-child(3n) .panel-body{
+    background: #FFF;
+}
+#accordion .panel:nth-child(3n) .panel-title a:hover{
+    background: #F0F0F0;
+}
+#accordion .panel:nth-child(4n) .panel-title a,
+#accordion .panel:nth-child(4n) .panel-body{
+    background: #F0F0F0;
+}
+#accordion .panel:nth-child(4n) .panel-title a:hover{
+    background: #FFF;
+}
 
+#accordion-negative .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+#accordion-negative .panel-heading{
+    padding: 0;
+    border: none;
+}
+#accordion-negative .panel-title a{
+    display: block;
+    padding: 15px 15px 15px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background: grey;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion-negative .panel-title a:hover{
+    background: white;
+}
+#accordion-negative .panel-title a:after,
+#accordion-negative .panel-title a.collapsed:after{
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+#accordion-negative .panel-title a.collapsed:after{
+    transform: rotate(360deg);
+}
+#accordion-negative .panel-body{
+    padding: 10px 70px 10px 20px;
+    background: #f95b34;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+#accordion-negative .panel:nth-child(2n) .panel-title a,
+#accordion-negative .panel:nth-child(2n) .panel-body{
+    background: #7aa300;
+}
+#accordion-negative .panel:nth-child(2n) .panel-title a:hover{
+    background: #6f910f;
+}
+#accordion-negative .panel:nth-child(3n) .panel-title a,
+#accordion-negative .panel:nth-child(3n) .panel-body{
+    background: #3f51b5;
+}
+#accordion-negative .panel:nth-child(3n) .panel-title a:hover{
+    background: #30419d;
+}
+
+#main-content {
+    width: 600px;
+        margin-left: 300px;
+        padding-top: 100px;
+
+}
+#main-content-right {
+    width: 600px;
+        margin-right: 300px;
+        padding-top: 100px;
+
+}
+.main-content-right-group {
+    padding-top: 100px;
+}
+.main-content-right {
+    float:right; 
+    margin-right:300px;
+    padding: 5px;
+}
