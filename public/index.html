@@ -455,7 +455,21 @@
             $(document).ready(function () {
                 appMaster.preLoader();
             });
-        </script>
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCORbgI1ZI5I16dGyB787bRzg6l2tKA72Q",
+        authDomain: "wapii-web.firebaseapp.com",
+        databaseURL: "https://wapii-web.firebaseio.com",
+        projectId: "wapii-web",
+        storageBucket: "wapii-web.appspot.com",
+        messagingSenderId: "568408529096"
+    };
+    firebase.initializeApp(config);
+    </script>
 </body>
 
 </html>
