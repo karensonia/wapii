@@ -1381,12 +1381,12 @@ border-style:none;
 															position: relative;
 
 														}
-.tparrows.hidearrows									{
+/* .tparrows.hidearrows									{
 															-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 															-moz-opacity: 0;
 															-khtml-opacity: 0;
 															opacity: 0;
-														}
+														} */
 .tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
 .tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
 
