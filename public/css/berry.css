@@ -1035,6 +1035,11 @@ section#features {
     background-position: center;
     background-repeat: no-repeat;
 }
+@media screen and (max-width: 748px) {
+    section#features {
+      background: none;
+        }
+  }
 
 section#contacto .contacto-item:hover h3 {
     color: #FFF;
