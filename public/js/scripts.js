@@ -109,7 +109,7 @@ var appMaster = {
 
 
         var mainSlider = $('.tp-banner').revolution({
-            delay: 9000,
+            delay: 7000,
             startwidth: 1170,
             startheight: docHeight,
             hideThumbs: 10,
@@ -119,6 +119,9 @@ var appMaster = {
             fullScreen: "on",
             onHoverStop: "off",
             fullScreenOffsetContainer: ""
+        });
+           var mainSlider = $('.tp-banner-tutorial').revolution({
+            delay: 4000,
         });
         
     },

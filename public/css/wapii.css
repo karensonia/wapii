@@ -10,6 +10,9 @@ pleft {
 pcenter {
     text-align: center;
 }
+.navbar-static-top {
+    background-color: transparent !important;
+}
 
 .orange-button {
     border-radius: 0;
