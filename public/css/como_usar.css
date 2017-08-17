@@ -1,0 +1,35 @@
+.tparrows {
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.tparrows:before {
+  font-family: 'revicons';
+  color: #ccc;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  margin-right: 50%;
+  margin-top: 15%;
+  text-align: center;
+  width: 40px;
+  font-size: 20px;
+}
+.tp-leftarrow:before {
+  content: '\e824';
+}
+.tp-rightarrow:before {
+  content: '\e825';
+}
+.tparrows.tp-rightarrow:before {
+  margin-left: 1px;
+}
+.tparrows:hover {
+  background: #324051 !important;
+}
