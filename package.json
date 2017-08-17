@@ -2,6 +2,7 @@
   "name": "wapii",
   "version": "1.0.0",
   "private": true,
+  "homepage" : "https://wapii-web.herokuapp.com",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

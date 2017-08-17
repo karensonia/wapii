@@ -1,0 +1,63 @@
+
+section#recuperando .recuperando-item:hover h3 {
+    color: #FFF;
+}
+section#recuperando {
+    position: relative;
+    background: url("../img/berry/mi-ciudad.png") no-repeat;
+    max-height: 600px;
+    margin-top: 12px;
+}
+
+section#recuperando .iphone {
+    width: 283px;
+    margin: 30px;
+    float: right;
+}
+
+section#recuperando .recuperando-item {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 35px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 104px;
+}
+
+section#recuperando .recuperando-item i.fa {
+    border: 2px solid #324051;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item:hover i.fa {
+    color: #ffffff;
+    background: #FFF;
+}
+
+section#recuperando .recuperando-item h1 {
+    font-size: 15px;
+    color: #FFF;
+}
+
+section#recuperando .recuperando-item h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+section#recuperando .recuperando-item:hover h3 {
+    color: #FFF;
+}
