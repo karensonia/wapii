@@ -2,8 +2,8 @@
   "root": "build/",
   "headers": {
     "/**": {
-      "Strict-Transport-Security": "max-age=7776000",
-      "Cache-Control": "no-store, no-cache"
+      "Cache-Control": "no-cache",
+      "Strict-Transport-Security": "max-age=7776000"
     }
   },
   "routes": {
