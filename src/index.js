@@ -10,4 +10,4 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(<Header />, document.getElementById('bs-example-navbar-collapse-1'));
 ReactDOM.render(<Slides />, document.getElementById('slides'));
 ReactDOM.render(<Cifras />, document.getElementById('cifras'));
-registerServiceWorker();
+// registerServiceWorker();
